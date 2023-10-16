@@ -142,3 +142,20 @@ body{
     text-align: center;
     margin: 5em 3em;
 }
+
+.lista__link a:hover{
+    color: var(--botao-azul);
+}
+
+.lista__link a:active{
+    color: white;
+}
+
+.container__botao:hover{
+    background-color: cyan;
+    color: var(--cor-de-fundo);
+}
+
+.container__botao:active{
+    background-color: white;
+}
